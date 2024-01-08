@@ -3,19 +3,8 @@ import face_recognition
 import pickle
 import os
 import firebaseCreds
-# import firebase_admin
-# from firebase_admin import credentials
-# from firebase_admin import db
 from firebase_admin import storage
-#
-#
-# cred = credentials.Certificate("serviceKey.json")
-# firebase_admin.initialize_app(cred,{
-#     'databaseURL' : "https://facerecognitionattendace-default-rtdb.firebaseio.com/",
-#     "storageBucket" : "facerecognitionattendace.appspot.com"
-# })
-#
-# ref = db.reference('Students')
+
 
 Folderpath = 'Images'
 pathList = os.listdir(Folderpath)

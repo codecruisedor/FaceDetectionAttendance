@@ -1,15 +1,3 @@
-# import firebase_admin
-# from firebase_admin import credentials
-# from firebase_admin import db
-#
-#
-#
-# cred = credentials.Certificate("serviceKey.json")
-# firebase_admin.initialize_app(cred, {
-#     'databaseURL' : "https://facerecognitionattendace-default-rtdb.firebaseio.com/"
-# })
-#
-# ref = db.reference('Students')
 import firebaseCreds as fc
 
 data = {
